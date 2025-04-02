@@ -1,4 +1,4 @@
-const mockEmployees = [
+export const mockEmployees = [
   {
     id: 0,
     name: "mock",
@@ -18,16 +18,3 @@ const mockEmployees = [
     position: "Designer"
   },
 ]
-
-const Home = () => {
-
-  return (
-    <div className="text-center">
-      <h1>Hello World!</h1>
-    </div>
-  )
-}
-
-
-
-export default Home
